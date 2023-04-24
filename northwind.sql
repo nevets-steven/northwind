@@ -41,3 +41,21 @@
 
 -- 13. select customer_id from orders
 -- WHERE order_id = '10290'
+
+-- 14. SELECT * FROM orders LEFT JOIN customers ON orders.customer_id = customers.customer_id;
+-- SELECT * FROM orders RIGHT JOIN customers ON orders.customer_id = customers.customer_id;
+-- SELECT * FROM orders FULL JOIN customers ON orders.customer_id = customers.customer_id;
+
+-- 15. SELECT * FROM orders LEFT JOIN employees on orders.employee_id = orders.employee_id
+-- WHERE city IN ('London');
+
+-- 16. SELECT ship_city, ship_name FROM products JOIN orders on products.supplier_id = orders.employee_id
+-- WHERE discontinued = 1;
+
+-- 17. SELECT first_name FROM employees
+-- WHERE reports_to IS NULL;
+
+-- 18. SELECT first_name FROM employees
+-- WHERE reports_to = 5
+
+
