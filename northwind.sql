@@ -49,8 +49,14 @@
 -- 15. SELECT * FROM orders LEFT JOIN employees on orders.employee_id = orders.employee_id
 -- WHERE city IN ('London');
 
--- 16. SELECT ship_city, ship_name FROM products JOIN orders on products.supplier_id = orders.employee_id
--- WHERE discontinued = 1;
+-- 16. SELECT ship_name 
+-- FROM orders
+--     JOIN order_details
+--         ON order_detaqils.order_id = orders.order_id
+--     JOIN products
+--         ON products.product_id = order_details.product_id
+-- WHERE products.discontinued = 1
+
 
 -- 17. SELECT first_name FROM employees
 -- WHERE reports_to IS NULL;
