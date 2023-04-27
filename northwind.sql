@@ -52,7 +52,7 @@
 -- 16. SELECT ship_name 
 -- FROM orders
 --     JOIN order_details
---         ON order_detaqils.order_id = orders.order_id
+--         ON order_details.order_id = orders.order_id
 --     JOIN products
 --         ON products.product_id = order_details.product_id
 -- WHERE products.discontinued = 1
