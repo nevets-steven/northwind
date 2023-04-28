@@ -56,6 +56,6 @@
 -- WHERE reports_to IS NULL;
 
 -- 18. SELECT first_name FROM employees
--- WHERE reports_to = 5
+-- WHERE reports_to = 2
 
 
