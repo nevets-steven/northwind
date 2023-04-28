@@ -28,16 +28,10 @@
 -- 10. DELETE FROM order_details WHERE quantity = 1
 
 
--- 11. SELECT avg(quantity) FROM order_details
--- SELECT min(quantity) FROM order_details
--- SELECT max(quantity) FROM order_details
+-- 11. SELECT avg(quantity), min(quantity), max(quantity) FROM order_details
 
--- 12. SELECT avg(quantity) FROM order_details
+-- 12. SELECT avg(quantity), min(quantity), max(quantity) FROM order_details
 -- GROUP BY order_id;
--- SELECT min(quantity) FROM order_details
--- GROUP BY order_id;
--- SELECT max(quantity) FROM order_details
--- GROUP BY order_id
 
 -- 13. select customer_id from orders
 -- WHERE order_id = '10290'
